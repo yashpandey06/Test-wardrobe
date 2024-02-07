@@ -1,0 +1,12 @@
+.OurSerices{
+    margin: 0 5vw;
+    width: 90vw;
+    min-height: -webkit-fill-available;
+}
+.collaboration-heading{
+    min-height: 58vh;
+}
+.pricing-table{
+    width: 50vw; 
+    margin: auto;
+}

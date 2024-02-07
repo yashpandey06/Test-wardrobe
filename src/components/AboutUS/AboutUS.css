@@ -1,0 +1,12 @@
+.AboutUS{
+    margin: 0 5vw;
+    width: 90vw;
+    min-height: 100%;
+}
+.index{
+    color: blue;
+    padding:0px 12px 0px 12px;
+    width: 1.25em;
+    textAlign: center;
+    margin:5px
+}

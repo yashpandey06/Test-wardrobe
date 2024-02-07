@@ -32,7 +32,10 @@ const HomePage = () => {
         <div className=" hero-section">
           <Carousel>
             <Carousel.Item>
-              <Link className="slider-img-holder" to={"/our-services/1"}>
+              <Link
+                className="slider-img-holder"
+                to={"/our-services/personal-styling"}
+              >
                 <img
                   className="hero-img"
                   src={PersonalStyling}
@@ -44,7 +47,10 @@ const HomePage = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <Link className="slider-img-holder" to={"/our-services/2"}>
+              <Link
+                className="slider-img-holder"
+                to={"/our-services/wardrobe-styling"}
+              >
                 <img
                   className="hero-img"
                   src={WardrobeOrganization}
@@ -56,7 +62,10 @@ const HomePage = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <Link className="slider-img-holder" to={"/our-services/3"}>
+              <Link
+                className="slider-img-holder"
+                to={"/our-services/clothing-rental"}
+              >
                 <img
                   className="hero-img"
                   src={ClothingRental}
@@ -211,7 +220,7 @@ const HomePage = () => {
           <div className="our-services-child">
             <InsideCard
               blue
-              titleOnClickPath="our-services/1"
+              titleOnClickPath="our-services/personal-styling"
               titleClass="our-service-card"
               title="Personal Styling"
             >
@@ -238,7 +247,7 @@ const HomePage = () => {
             </div>
             <InsideCard
               blue
-              titleOnClickPath="our-services/2"
+              titleOnClickPath="our-services/wardrobe-styling"
               titleClass="our-service-card"
               title="Wardrobe Styling"
             >
@@ -250,7 +259,7 @@ const HomePage = () => {
           <div className="our-services-child">
             <InsideCard
               blue
-              titleOnClickPath="our-services/3"
+              titleOnClickPath="our-services/clothing-rental"
               titleClass="our-service-card"
               title="Clothing Rental"
             >
@@ -281,7 +290,7 @@ const HomePage = () => {
               />
             </div>
             <InsideCard
-              titleOnClickPath="our-services/1"
+              // titleOnClickPath="our-services/1"
               titleClass="our-service-card"
               title="Download the App"
             >
@@ -291,7 +300,7 @@ const HomePage = () => {
           </div>
           <div className="starting-steps">
             <InsideCard
-              titleOnClickPath="our-services/1"
+              // titleOnClickPath="our-services/personal-styling"
               titleClass="our-service-card"
               title="Sign Up and Fill Out Your Style Profile"
             >
@@ -316,7 +325,7 @@ const HomePage = () => {
               />
             </div>
             <InsideCard
-              titleOnClickPath="our-services/1"
+              // titleOnClickPath="our-services/1"
               titleClass="our-service-card"
               title="Choose Your Service"
             >
@@ -326,7 +335,7 @@ const HomePage = () => {
           </div>
           <div className="starting-steps">
             <InsideCard
-              titleOnClickPath="our-services/1"
+              // titleOnClickPath="our-services/1"
               titleClass="our-service-card"
               title="Sit Back and Relax"
             >

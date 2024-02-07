@@ -52,7 +52,8 @@ function App() {
                         </Offcanvas.Title>
                       </Offcanvas.Header>
                       <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                        <Nav className="justify-content-end flex-grow-1 pe-3 alignItems">
+                          
                           <NavDropdown
                             className="muti-color-text bold cursor-pointer"
                             title="Our Services"
